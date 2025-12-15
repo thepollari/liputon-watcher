@@ -1,0 +1,14 @@
+{
+  "name": "liputon-watcher",
+  "version": "1.0.0",
+  "description": "Checks liputon.fi for tickets and alerts via Discord",
+  "main": "check.js",
+  "scripts": {
+    "start": "node check.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0"
+  }
+}
