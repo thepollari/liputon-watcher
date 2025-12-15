@@ -27,3 +27,4 @@ jobs:
         run: node check.js
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          EVENT_URL: ${{ vars.EVENT_URL }}
